@@ -2,7 +2,7 @@
 
 Este projeto é uma solução completa de **Engenharia de Dados** desenvolvida para realizar a extração, limpeza, transformação e carga (ELT/ETL) de dados transacionais de uma locadora de carros. 
 
-Nesta versão, a arquitetura foi evoluída para **Big Data**. Todo o motor de processamento, antes em Pandas, foi refatorado para utilizar **Apache Spark (PySpark)**, provendo paralelismo e tolerância a falhas. A infraestrutura continua conteinerizada via **Docker** e a orquestração (agora injetando e manipulando instâncias da JVM) é feita via **Apache Airflow**.
+Nesta versão, a arquitetura foi evoluída para **Big Data**. Todo o motor de processamento, foi feito para utilizar **Apache Spark (PySpark)**, provendo paralelismo e tolerância a falhas. A infraestrutura continua conteinerizada via **Docker** e a orquestração (agora injetando e manipulando instâncias da JVM) é feita via **Apache Airflow**.
 
 ---
 
